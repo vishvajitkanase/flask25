@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: vishvajitkanase/demo-app
+          image: myimage
           ports:
             - containerPort: 5000
           env:
